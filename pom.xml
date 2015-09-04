@@ -14,6 +14,8 @@
 	<version>1.2.0-SNAPSHOT</version>
 
 	<name>Black Pepper Support Selenium</name>
+	<description>Support for working with Selenium.</description>
+	<url>https://github.com/BlackPepperSoftware/bp-support-selenium</url>
 	
 	<scm>
 		<connection>scm:git:git@github.com:BlackPepperSoftware/bp-support-selenium.git</connection>
