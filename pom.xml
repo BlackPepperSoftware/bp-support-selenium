@@ -43,6 +43,16 @@
 	
 	</licenses>
 	
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/BlackPepperSoftware/bp-support-selenium/issues</url>
+	</issueManagement>
+	
+	<ciManagement>
+		<system>Travis CI</system>
+		<url>https://travis-ci.org/BlackPepperSoftware/bp-support-selenium</url>
+	</ciManagement>
+
 	<scm>
 		<connection>scm:git:git@github.com:BlackPepperSoftware/bp-support-selenium.git</connection>
 		<developerConnection>scm:git:git@github.com:BlackPepperSoftware/bp-support-selenium.git</developerConnection>
