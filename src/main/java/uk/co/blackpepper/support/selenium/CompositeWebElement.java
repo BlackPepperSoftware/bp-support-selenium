@@ -18,7 +18,9 @@ package uk.co.blackpepper.support.selenium;
 import java.util.List;
 
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 
 import static java.util.Arrays.asList;
@@ -107,5 +109,10 @@ public class CompositeWebElement extends CompositeSearchContext implements WebEl
 	@Override
 	protected List<? extends WebElement> getChildren() {
 		return (List<? extends WebElement>) super.getChildren();
+	}
+
+	@Override
+	public <X> X getScreenshotAs(OutputType<X> target) throws WebDriverException {
+		throw new UnsupportedOperationException();
 	}
 }
